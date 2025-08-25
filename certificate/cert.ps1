@@ -3,7 +3,7 @@ $number = Read-Host -Prompt 'Input 1 - install to Current User, 2 -delete from C
 #maybe you need change it
 $delTag = 'Unified State Internet Access Gateway'
 $p7b = "Unified_State_Internet_Access_Gateway.cer"
-$source = "https://sts.kz/wp-content/uploads/2021/05/Unified_State_Internet_Access_Gateway.cer"
+$source = "https://sts.kz/storage/media/Unified_State_Internet_Access_Gateway_RtnCtVF.cer"
 $destination = "Unified_State_Internet_Access_Gateway.cer"
 
 function InstallCrt {
