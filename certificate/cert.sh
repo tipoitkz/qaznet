@@ -1,7 +1,7 @@
 #!/bin/bash
 read -p "Input 1 - install, 2 -delete " key
 
-source="https://sts.kz/wp-content/uploads/2021/05/Unified_State_Internet_Access_Gateway.cer"
+source="https://sts.kz/storage/media/Unified_State_Internet_Access_Gateway_RtnCtVF.cer"
 
 version=$(awk -F= '/^NAME/{print $2}' /etc/os-release)
 
